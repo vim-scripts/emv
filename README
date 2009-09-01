@@ -1,0 +1,14 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2767
+
+emv - editor mv - is a perl script for Unix to use the power of vim to mass rename files, with the renaming and logging done in perl, and vim used to edit the filenames with visual block commands, s///g. In contrast to the original shell script, sorting and deleting lines is permitted.
+
+You can specify a command of your own instead of the default /bin/mv. Also some special commands can be specified, which are run before any renames, including e.g. link target editing.
+
+Help is available with --help and also in the editor buffer.
+
+[small fix: should now work with older perls as well]
+
+The current version is available from: 
+http://jakobi.github.com/script-archive-doc/
+http://github.com/jakobi/script-archive/tree/master/cli.list.rename/
+
